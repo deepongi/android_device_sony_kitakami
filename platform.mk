@@ -136,3 +136,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
     ro.qti.sensors.tilt_detector=false \
     ro.qti.sensors.dpc=false \
     ro.qti.sensors.wu=true
+
+# Copying files
+PRODUCT_COPY_FILES += \
+    $(SONY_ROOT)/twrp.fstab:recovery/root/etc/twrp.fstab
